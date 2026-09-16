@@ -1,0 +1,2 @@
+letter = "Dear Mannat,\n\tThis python course is brilliant.\nThanks"
+print(letter)
