@@ -1,0 +1,11 @@
+# wap to check whether a given value is present in a tuple. if present, display its position. 
+numbers = (10, 20, 30, 40)
+search = int(input("enter number to search: "))
+found = False
+for i in range(len(numbers)):
+    if numbers[i] == search:
+        print("Element found at position: ", i)
+        found = True
+        break
+if not found:
+    print("Element not found in the tuple")
